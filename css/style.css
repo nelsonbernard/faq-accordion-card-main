@@ -80,6 +80,7 @@ hr{
 }
 
 .mobile-illustration{
+    content: url('../images/illustration-woman-online-desktop.svg');
     width: 237px;
     height: 180px;
     position: absolute;
