@@ -45,6 +45,10 @@ a{
     color: var(--very-dark-grayish-blue);
 }
 
+a:hover{
+    cursor: pointer;
+}
+
 i{
     color: var(--soft-red);
 }
@@ -63,7 +67,7 @@ hr{
     margin-inline: 1.5rem;
     margin-top: 8rem;
     margin-bottom: 4rem;
-    min-width: 327px;
+    width: 327px;
 }
 
 .image-container{
@@ -123,6 +127,7 @@ hr{
 
 .active i{
     transform: rotate(180deg);
+    transition: all .1s ease-out;
 }
 
 svg{
@@ -165,6 +170,7 @@ svg{
         justify-content: center;
         align-items: left;
         text-align: left;
+        padding-block: 0;
     }
 
     .background{
